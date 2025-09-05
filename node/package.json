@@ -1,0 +1,25 @@
+{
+  "name": "video-to-audio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "run": "node --env-file=.env convert.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Muatasim-Aswad/video-to-audio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Muatasim-Aswad/video-to-audio/issues"
+  },
+  "homepage": "https://github.com/Muatasim-Aswad/video-to-audio#readme",
+  "description": "",
+  "dependencies": {
+    "@inquirer/prompts": "^7.8.4",
+    "fluent-ffmpeg": "^2.1.3"
+  }
+}

@@ -1,0 +1,107 @@
+# Build directory
+build/
+cmake-build-*/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Built binary
+convert
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+_deps
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.kate-swp
+.kdev4/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# Log files
+*.log
+logs/
+
+# Backup files
+*.bak
+*.backup
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Profiling data
+*.gcno
+*.gcda
+*.gcov
+callgrind.out.*
+perf.data*
+
+# Valgrind
+vgcore.*
+*.memcheck
+
+# Doxygen documentation
+docs/html/
+docs/latex/
+
+# Conan
+conandata.yml
+conaninfo.txt
+conanbuildinfo.cmake
+conanbuildinfo.txt
+conan.lock

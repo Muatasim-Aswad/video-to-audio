@@ -1,0 +1,35 @@
+[package]
+name = "video-to-audio-converter"
+version = "1.0.0"
+edition = "2021"
+authors = ["HackYourFuture <info@hackyourfuture.net>"]
+description = "Interactive video to audio converter with file selection"
+license = "MIT"
+
+[[bin]]
+name = "convert"
+path = "src/main.rs"
+
+[dependencies]
+# For colored console output
+colored = "2.1"
+# For user interaction and prompts
+inquire = "0.7"
+# For environment variable loading
+dotenv = "0.15"
+# For file operations and path handling
+walkdir = "2.4"
+# For URL validation
+url = "2.5"
+# For progress indication
+indicatif = "0.17"
+# For cross-platform process handling
+tokio = { version = "1.39", features = ["full"] }
+
+[profile.release]
+# Optimize for small binary size
+opt-level = "s"
+lto = true
+codegen-units = 1
+panic = "abort"
+strip = true
